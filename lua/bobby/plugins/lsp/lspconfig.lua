@@ -148,6 +148,9 @@ return {
             autoSearchPaths = true,
             useLibraryCodeForTypes = true,
             diagnosticMode = "workspace",
+            diagnosticSeverityOverrides = { -- Corrected this line
+              reportMissingImports = "none", -- Disables import error diagnostics
+            },
           },
         },
       },
