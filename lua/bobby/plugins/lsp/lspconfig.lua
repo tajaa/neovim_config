@@ -151,6 +151,7 @@ return {
             diagnosticSeverityOverrides = { -- Corrected this line
               reportMissingImports = "none", -- Disables import error diagnostics
             },
+            extraPaths = { "./app", "./backend" },
           },
         },
       },
